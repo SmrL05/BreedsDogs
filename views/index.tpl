@@ -1,8 +1,9 @@
 % rebase('layout.tpl', title='Home Page', year=year)
 
 <div class="jumbotron">
-    <h1>Bottle</h1>
-    <p class="lead">Bottle is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <h1>Breeds Gogs</h1>
+    <p class="lead">Dogs are the most popular pets. Only cats can compete with them. Dogs have lived alongside humans for centuries, never getting tired of proving their loyalty and love to him.
+On our website we will look at some dog breeds.</p>
     <p><a href="http://bottlepy.org/docs/dev/index.html" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
 </div>
 
