@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <div class="container body-content" style="background-color:#ffffff; border-color:DarkGray; color:black">
+    <div class="container body-content" style="background-color:#ff67ff; border-color:DarkGray; color:black">
         {{!base}}
         <hr />
         <footer>
