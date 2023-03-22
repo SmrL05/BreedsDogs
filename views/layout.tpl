@@ -6,7 +6,7 @@
     <title>Breeds Dogs</title>
     <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
-    <script src="/static/scripts/modernizr-2.6.2.js"></script>
+    <script src="/static/scripts/modernizr-2.6.2.js" ></script>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <div class="container body-content" style="background-color:#ff67ff; border-color:DarkGray; color:black">
+    <div class="container body-content" style="background-color:#ffffff; border-color:DarkGray; color:black">
         {{!base}}
         <hr />
         <footer>

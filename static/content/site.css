@@ -1,6 +1,9 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    min-height:100%;
+    width:100%;
+    background-image: url(https://kartinkin.net/pics/uploads/posts/2022-08/1659562033_4-kartinkin-net-p-pattern-sobachki-krasivo-4.jpg);
 }
 
 /* Set padding to keep content from hitting the edges */
