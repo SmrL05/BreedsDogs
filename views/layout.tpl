@@ -16,6 +16,9 @@
     </div>
 
     <div class="container body-content">
+    <div class = "name">
+    <img src="/static/image/pic2.jpg" height = 700 margin = 0px/>
+    </div>
         {{!base}}
         <hr />
         <footer>
