@@ -12,7 +12,7 @@
 <body>
     
     <div class="navbar navbar-inverse navbar-fixed-top" >
-        <img src="/static/image/head2.jpg" height = 50/>
+        <img src="/static/image/head.jpg" height =58 width=device />
     </div>
 
     <div class="container body-content">
