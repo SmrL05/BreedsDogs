@@ -19,6 +19,7 @@
         {{!base}}
         <hr />
         <footer>
+        <img scr = "/static/image/pic2.png"/>
             <p>&copy; {{ year }} - Dogs Breeds</p>
         </footer>
     </div>
@@ -28,4 +29,5 @@
     <script src="/static/scripts/respond.js"></script>
 
 </body>
+
 </html>
