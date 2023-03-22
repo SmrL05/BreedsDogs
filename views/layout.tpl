@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html> 
-<head>
+<head >
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title >Breeds Dogs</title>
@@ -12,7 +12,7 @@
 <body>
     
     <div class="navbar navbar-inverse navbar-fixed-top" >
-        <img src="/static/image/head.jpg" height = 100 wheight = 400/>
+        <img src="/static/image/head2.jpg" height = 50/>
     </div>
 
     <div class="container body-content">

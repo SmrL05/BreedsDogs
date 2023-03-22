@@ -9,7 +9,6 @@ On our website we will look at some dog breeds.</p>
 </div>
 
 <div class="row">
-    
     <div class="col-md-4">
         <h2>Getting started</h2>
         <p>
@@ -30,7 +29,7 @@ On our website we will look at some dog breeds.</p>
 
 </div>
 
-<div class="row" style="background-color:#ffffff; border-color:DarkGray; color:black">
+<div class="row" >
     <div class="col-md-4">
         <h2>Getting started</h2>
         <p>
