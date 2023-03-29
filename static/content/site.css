@@ -7,52 +7,39 @@ body {
     background-image: url(https://kartinkin.net/uploads/posts/2022-01/1643340365_43-kartinkin-net-p-pattern-labirint-krasivie-55.jpg);
 }
 
-body {
-    background: #1b2631;
-}
-
-body {
-    background: #1D1B26;
-}
-
-.sliding-button {
+.shine-button {
     text-decoration: none;
-    color: white;
     display: inline-block;
-    position: relative;
-    padding: 15px 30px;
-    border: 1px solid;
-    border-image: linear-gradient(180deg, #ffcf40, #ffc30f, #dba400, #a87e00);
-    border-image-slice: 1;
+    padding: 10px 30px;
     margin: 10px 20px;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
+    position: relative;
     overflow: hidden;
-    letter-spacing: 2px;
-    transition: .8s cubic-bezier(.165, .84, .44, 1);
+    border: 2px solid #ffa812;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #db8b00;
+    transition: .2s ease-in-out;
 }
 
-.sliding-button:before {
+.shine-button:before {
     content: "";
+    background: linear-gradient(90deg, #ffc30f, #ffcf40);
+    height: 50px;
+    width: 50px;
     position: absolute;
-    left: 0;
-    top: 0;
-    height: 0;
-    width: 100%;
-    z-index: -1;
-    color: white;
-    background: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
-    transition: .8s cubic-bezier(.165, .84, .44, 1);
+    top: -8px;
+    left: -75px;
+    transform: skewX(-45deg);
 }
 
-.sliding-button:hover {
-    background: rgba(255, 255, 255, 0);
+.shine-button:hover {
+    background: #ffa812;
+    color: #fff;
 }
 
-.sliding-button:hover:before {
-    bottom: 0%;
-    top: auto;
-    height: 100%;
+.shine-button:hover:before {
+    left: 150px;
+    transition: .5s ease-in-out;
 }
 
 /* Set padding to keep content from hitting the edges */
