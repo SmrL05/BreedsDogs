@@ -152,3 +152,29 @@ On our website we will look at some dog breeds.</font>
     </div>
 
 </div>
+
+<div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
+    <div class="col-md-4">
+        <h2>Dachshund</h2>
+        <p>
+            Dachshund is a breed of dog with short legs and a long body, designed for hunting burrowing animals.
+        </p>
+        <p><a class="shine-button" href="https://lapkins.ru/dog/taksa/">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Vyzhla Hungarian</h2>
+        <p>
+            Vyzhla Hungarian is a hunting breed of dogs, originally from Hungary. The shorthair has survived one of the oldest European breeds, 
+            while the wirehair is one of the youngest. He is a born hunter, endowed with an excellent nose and outstanding learning ability.
+        </p>
+        <p><a class="shine-button" href="https://lapkins.ru/dog/vengerskaya-vyzhla/">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Maltese Lapdog</h2>
+        <p>
+            The Maltese lapdog is a small dog native to the Mediterranean. It is one of the oldest breeds known to man, especially among European dogs.
+        </p>
+        <p><a class="shine-button" href="https://lapkins.ru/dog/maltiyskaya-bolonka/ ">Learn more &raquo;</a></p>
+    </div>
+
+</div>
