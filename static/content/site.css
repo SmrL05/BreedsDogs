@@ -43,6 +43,13 @@ body {
     transition: .5s ease-in-out;
 }
 
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #ffa812; /* Цвет линии для остальных браузеров */
+    background-color: #ffa812; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+}
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left:15px;
