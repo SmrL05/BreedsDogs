@@ -56,6 +56,7 @@
     <Content Include="static\image\head2.jpg">
       <Publish>True</Publish>
     </Content>
+    <Content Include="static\image\paws.png" />
     <Content Include="static\image\pic2.jpg">
       <Publish>True</Publish>
     </Content>

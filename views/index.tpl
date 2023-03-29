@@ -21,7 +21,7 @@ On our website we will look at some dog breeds.</font>
             The Akita Inu is a breed of dog native to the northern regions of Japan. There are two different types of dogs: 
             the Japanese line, known as the Akita Inu (Inu in Japanese dog), and the American Akita or big Japanese dog.
         </p>
-        <p><a class="shine-button" href="https://lapkins.ru/dog/akita-inu/">Learn more &raquo;</a></p>
+        <p><a class="shine-button" href="https://lapkins.ru/dog/akita-inu/"><img src="/static/image/paws.png" height=40></a></p>
         </div>
     </div>
     <div class="col-md-6">
@@ -34,7 +34,7 @@ On our website we will look at some dog breeds.</font>
             The Beagle is a small, and the friendliest dog in the world, a great friend for both adults and children. 
             They are cheerful, active, but, like all hounds, they can be stubborn and their training requires patience and ingenuity.
         </p>
-        <p><a class="shine-button" href="https://lapkins.ru/dog/bigl/">Learn more &raquo;</a></p>
+        <p><a class="shine-button" href="https://lapkins.ru/dog/bigl/">Poke here</a></p>
         
     </div>
 </div>
