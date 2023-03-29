@@ -43,7 +43,7 @@ On our website we will look at some dog breeds.</font>
 <div class="col-md-6">
         <h2>Dalmatian</h2>
         <div class="col-md-6">
-        <img src = "/static/image/akita.jpg" height = 170/>
+        <img src = "/static/image/dalmatin.jpg" height = 170/>
         </div>
         <div class="col-md-6">
         <p>
@@ -57,7 +57,7 @@ On our website we will look at some dog breeds.</font>
     <div class="col-md-6">
         <h2>Jack Russell Terrier</h2>
         <div class="col-md-6">
-        <img src = "/static/image/akita.jpg" height = 170/>
+        <img src = "/static/image/jackRassel.jpg" height = 170/>
         </div>
         <div class="col-md-6">
         <p>
@@ -75,7 +75,7 @@ On our website we will look at some dog breeds.</font>
     <div class="col-md-6">
         <h2>Doberman</h2>
         <div class="col-md-6">
-        <img src = "/static/image/akita.jpg" height = 170/>
+        <img src = "/static/image/doberman.jpg" height = 170/>
         </div>
         <div class="col-md-6">
         <p>
@@ -88,7 +88,7 @@ On our website we will look at some dog breeds.</font>
     <div class="col-md-6">
         <h2>Yorkshire Terrier</h2>
         <div class="col-md-6">
-        <img src = "/static/image/akita.jpg" height = 170/>
+        <img src = "/static/image/iorik.jpg" height = 170/>
         </div>
         <div class="col-md-6">
         <p>
@@ -105,7 +105,7 @@ On our website we will look at some dog breeds.</font>
     <div class="col-md-6">
         <h2>Cavalier King Charles Spaniel</h2>
         <div class="col-md-6">
-        <img src = "/static/image/akita.jpg" height = 170/>
+        <img src = "/static/image/CKCspaniel.jpg" height = 170/>
         </div>
         <div class="col-md-6">
         <p>
@@ -118,7 +118,7 @@ On our website we will look at some dog breeds.</font>
     <div class="col-md-6">
         <h2>Labrador Retriever</h2>
         <div class="col-md-6">
-        <img src = "/static/image/akita.jpg" height = 170/>
+        <img src = "/static/image/lablador.jpeg" height = 170/>
         </div>
         <div class="col-md-6">
         <p>
@@ -134,7 +134,7 @@ On our website we will look at some dog breeds.</font>
     <div class="col-md-6">
         <h2>Pug</h2>
         <div class="col-md-6">
-        <img src = "/static/image/akita.jpg" height = 170/>
+        <img src = "/static/image/pug.jpeg" height = 170/>
         </div>
         <div class="col-md-6">
         <p>
@@ -148,7 +148,7 @@ On our website we will look at some dog breeds.</font>
     <div class="col-md-6">
         <h2>German Shepherd</h2>
         <div class="col-md-6">
-        <img src = "/static/image/akita.jpg" height = 170/>
+        <img src = "/static/image/Gshepherd.jpg" height = 140/>
         </div>
         <div class="col-md-6">
         <p>
@@ -165,7 +165,7 @@ On our website we will look at some dog breeds.</font>
     <div class="col-md-6">
         <h2>Pekingese</h2>
         <div class="col-md-6">
-        <img src = "/static/image/akita.jpg" height = 170/>
+        <img src = "/static/image/pekeness.jpg" height = 170/>
         
         </div>
         <div class="col-md-6">
@@ -178,7 +178,7 @@ On our website we will look at some dog breeds.</font>
     <div class="col-md-6">
         <h2>Pomeranian</h2>
         <div class="col-md-6">
-        <img src = "/static/image/beagle.jpg" height = 170/>
+        <img src = "/static/image/pomerian.jpg" height = 170/>
        
         </div>
         <p>
@@ -194,7 +194,7 @@ On our website we will look at some dog breeds.</font>
     <div class="col-md-6">
         <h2>Poodle</h2>
         <div class="col-md-6">
-        <img src = "/static/image/akita.jpg" height = 170/>
+        <img src = "/static/image/poodel.jpg" height = 170/>
         
         </div>
         <div class="col-md-6">
@@ -208,7 +208,7 @@ On our website we will look at some dog breeds.</font>
     <div class="col-md-6">
         <h2>Shiba Inu</h2>
         <div class="col-md-6">
-        <img src = "/static/image/beagle.jpg" height = 170/>
+        <img src = "/static/image/sibainu.jpg" height = 170/>
        
         </div>
         <p>
@@ -224,7 +224,7 @@ On our website we will look at some dog breeds.</font>
     <div class="col-md-6">
         <h2>Vyzhla Hungarian</h2>
         <div class="col-md-6">
-        <img src = "/static/image/akita.jpg" height = 170/>
+        <img src = "/static/image/vizla.jpg" height = 170/>
         
         </div>
         <div class="col-md-6">
@@ -238,7 +238,7 @@ On our website we will look at some dog breeds.</font>
     <div class="col-md-6">
         <h2>Dachshund</h2>
         <div class="col-md-6">
-        <img src = "/static/image/beagle.jpg" height = 170/>
+        <img src = "/static/image/taksa.jpg" height = 170/>
        
         </div>
         <p>
