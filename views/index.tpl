@@ -5,7 +5,7 @@
 <div class="jumbotron" style="background-color:#000000; border-color:DarkGray; color:black">
     <font color="white" class="lead" > Dogs are the most popular pets. Only cats can compete with them. Dogs have lived alongside humans for centuries, never getting tired of proving their loyalty and love to him.
 On our website we will look at some dog breeds.</font>
-    <p><a href="https://en.wikipedia.org/wiki/Dog" class="shine-button" >Learn more &raquo;</a></p>
+    <p><a href="https://en.wikipedia.org/wiki/Dog" class="shine-button" > Who are dogs?</a></p>
 </div>
 
 
