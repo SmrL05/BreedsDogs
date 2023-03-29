@@ -9,7 +9,7 @@ On our website we will look at some dog breeds.</p>
 </div>
 
 
-<div class="row" style="background-color:#ffffff; border-color:DarkGray; color:black">
+<div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
     <div class="col-md-4">
         <h2>Akita Inu</h2>
         <p>
