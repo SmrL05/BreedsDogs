@@ -40,6 +40,7 @@ body {
 
 .shine-button:hover:before {
     left: 250px;
+    top: 70px;
     transition: .5s ease-in-out;
 }
 
