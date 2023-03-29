@@ -117,75 +117,93 @@ On our website we will look at some dog breeds.</font>
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/nemetskaya-ovcharka/">Learn more &raquo;</a></p>
     </div>
-    <div class="col-md-4">
+
+</div>
+
+<div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
+    <div class="col-md-6">
         <h2>Pekingese</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/akita.jpg" height = 170/>
+        
+        </div>
+        <div class="col-md-6">
         <p>
             The Pekingese is a small decorative dog originally from China. Jealously guarded by the nobility, it was not known outside of China until 1860.
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/pekines/">Learn more &raquo;</a></p>
+        </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-6">
         <h2>Pomeranian</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/beagle.jpg" height = 170/>
+       
+        </div>
         <p>
             Pomeranian is a breed of dog named after the region of Pomerania, today divided between Poland and Germany. 
             This breed is classified as decorative, but they originate from larger spitz, for example, from the German spitz.
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/pomeranskiy-shpits/">Learn more &raquo;</a></p>
+        
     </div>
-
 </div>
 
 <div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
-    <div class="col-md-4">
+    <div class="col-md-6">
         <h2>Poodle</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/akita.jpg" height = 170/>
+        
+        </div>
+        <div class="col-md-6">
         <p>
             The poodle is a breed of dogs previously used for hunting, and today mostly decorative. 
             This is a very variable breed, there are four growth varieties, two types of wool and at least 6 colors.
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/pudel/">Learn more &raquo;</a></p>
+        </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-6">
         <h2>Shiba Inu</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/beagle.jpg" height = 170/>
+       
+        </div>
         <p>
             The Shiba Inu is the smallest dog of all Japanese working breeds, outwardly resembling a fox. 
             Despite being closely related to other Japanese dogs, the Shiba Inu is a unique hunting breed, not a miniature version of another breed. 
-            This is the most popular breed in Japan, which has managed to gain a good foothold in other countries.
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/siba-inu/">Learn more &raquo;</a></p>
+        
     </div>
-    <div class="col-md-4">
-        <h2>Siberian Husky</h2>
-        <p>
-            Siberian Husky is a breed of medium-sized dogs, whose homeland is Siberia. The ancestors of the Husky served the northern tribes, 
-            whose way of life was nomadic and largely depended on the help of dogs. Today it is a popular companion dog, one of the most popular breeds in the world.
-        </p>
-        <p><a class="shine-button" href="https://lapkins.ru/dog/sibirskiy-khaski/">Learn more &raquo;</a></p>
-    </div>
-
 </div>
 
 <div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
-    <div class="col-md-4">
-        <h2>Dachshund</h2>
-        <p>
-            Dachshund is a breed of dog with short legs and a long body, designed for hunting burrowing animals.
-        </p>
-        <p><a class="shine-button" href="https://lapkins.ru/dog/taksa/">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
+    <div class="col-md-6">
         <h2>Vyzhla Hungarian</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/akita.jpg" height = 170/>
+        
+        </div>
+        <div class="col-md-6">
         <p>
             Vyzhla Hungarian is a hunting breed of dogs, originally from Hungary. The shorthair has survived one of the oldest European breeds, 
             while the wirehair is one of the youngest. He is a born hunter, endowed with an excellent nose and outstanding learning ability.
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/vengerskaya-vyzhla/">Learn more &raquo;</a></p>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Maltese Lapdog</h2>
+    <div class="col-md-6">
+        <h2>Dachshund</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/beagle.jpg" height = 170/>
+       
+        </div>
         <p>
-            The Maltese lapdog is a small dog native to the Mediterranean. It is one of the oldest breeds known to man, especially among European dogs.
+            Dachshund is a breed of dog with short legs and a long body, designed for hunting burrowing animals.
         </p>
-        <p><a class="shine-button" href="https://lapkins.ru/dog/maltiyskaya-bolonka/ ">Learn more &raquo;</a></p>
+        <p><a class="shine-button" href="https://lapkins.ru/dog/taksa/">Learn more &raquo;</a></p>
+        
     </div>
-
 </div>
