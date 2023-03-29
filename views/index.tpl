@@ -3,8 +3,9 @@
 
 
 <div class="jumbotron" style="background-color:#000000; border-color:DarkGray; color:black">
-    <font color="white" class="lead" > Dogs are the most popular pets. Only cats can compete with them. Dogs have lived alongside humans for centuries, never getting tired of proving their loyalty and love to him.
-On our website we will look at some dog breeds.</font>
+    <font color="white" class="lead" > Dogs are a placental mammal of the carnivorous order of the Canid family.
+    Dogs are known for their learning abilities, love of play, and social behavior. Special breeds of dogs have been bred, designed for various purposes: hunting, protection, traction and others, as well as decorative breeds.
+    There are more than 300 dog breeds in total. We will tell you about some of the most famous ones.</font>
     <p><a href="https://en.wikipedia.org/wiki/Dog" class="shine-button" > Who are dogs?</a></p>
 </div>
 
