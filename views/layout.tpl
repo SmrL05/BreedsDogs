@@ -16,10 +16,12 @@
     <img src="/static/image/pic2.jpg" height = 640 margin = 0px/>
     </div>
         {{!base}}
+        
         <hr />
+        <div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
         <footer>
-        <font color="white"/>
             <p>&copy; {{ year }} - Dogs Breeds</p>
+            </div>
         </footer>
     </div>
 

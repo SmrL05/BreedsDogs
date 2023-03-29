@@ -10,23 +10,36 @@ On our website we will look at some dog breeds.</font>
 
 
 <div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
-    <div class="col-md-4">
+    <div class="col-md-6">
         <h2>Akita Inu</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/akita.jpg" height = 170/>
+        
+        </div>
+        <div class="col-md-6">
         <p>
             The Akita Inu is a breed of dog native to the northern regions of Japan. There are two different types of dogs: 
             the Japanese line, known as the Akita Inu (Inu in Japanese dog), and the American Akita or big Japanese dog.
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/akita-inu/">Learn more &raquo;</a></p>
+        </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-6">
         <h2>Beagle</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/beagle.jpg" height = 170/>
+       
+        </div>
         <p>
             The Beagle is a small, and the friendliest dog in the world, a great friend for both adults and children. 
             They are cheerful, active, but, like all hounds, they can be stubborn and their training requires patience and ingenuity.
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/bigl/">Learn more &raquo;</a></p>
+        
     </div>
-    <div class="col-md-4">
+</div>
+
+<div class="col-md-4">
         <h2>Dalmatian</h2>
         <p>
             Dalmatian is a breed of dog, noticeable due to the spotted coat color. Its roots come from the region of Dalmatia, 
@@ -35,8 +48,6 @@ On our website we will look at some dog breeds.</font>
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/dalmatinets/">Learn more &raquo;</a></p>
     </div>
-
-</div>
 
 <div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
     <div class="col-md-4">
