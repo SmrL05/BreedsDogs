@@ -1,11 +1,11 @@
 % rebase('layout.tpl', title='Home Page', year=year)
 
-<div class="jumbotron">
-    <h1>Breeds Dogs</h1>
-    <p class="lead">Dogs are the most popular pets. Only cats can compete with them. Dogs have lived alongside humans for centuries, never getting tired of proving their loyalty and love to him.
-On our website we will look at some dog breeds.</p>
-    <p><a href="https://en.wikipedia.org/wiki/Dog" class="btn btn-primary btn-large" style="font-size : 20px; background-color:#dbdbdb; border-color:DarkGray; color:black">Learn more &raquo;</a></p>
 
+
+<div class="jumbotron" style="background-color:#000000; border-color:DarkGray; color:black">
+    <font color="white" class="lead" > Dogs are the most popular pets. Only cats can compete with them. Dogs have lived alongside humans for centuries, never getting tired of proving their loyalty and love to him.
+On our website we will look at some dog breeds.</font>
+    <p><a href="https://en.wikipedia.org/wiki/Dog" class="btn btn-primary btn-large" style="font-size : 20px; background-color:#dbdbdb; border-color:DarkGray; color:black">Learn more &raquo;</a></p>
 </div>
 
 
