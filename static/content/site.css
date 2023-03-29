@@ -4,7 +4,7 @@ body {
     padding-bottom: 20px;
     min-height: 100%;
     width: 100%;
-    background-image: url(https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-Resize-ZftAlj6QPUD71E.jpg);
+    background-image: url(/static/image/background.jpg);
 }
 
 .shine-button {
@@ -53,6 +53,9 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+h2 {
+    color: #ffa812;
 }
 
 /* styles for validation helpers */

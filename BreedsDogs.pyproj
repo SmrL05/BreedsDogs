@@ -52,13 +52,27 @@
     <Content Include="static\image\akita.jpg" />
     <Content Include="static\image\background.jpg" />
     <Content Include="static\image\beagle.jpg" />
+    <Content Include="static\image\CKCspaniel.jpg" />
+    <Content Include="static\image\dalmatin.jpg" />
+    <Content Include="static\image\doberman.jpg" />
+    <Content Include="static\image\Gshepherd.jpg" />
     <Content Include="static\image\head.jpg" />
     <Content Include="static\image\head2.jpg">
       <Publish>True</Publish>
     </Content>
+    <Content Include="static\image\iorik.jpg" />
+    <Content Include="static\image\jackRassel.jpg" />
+    <Content Include="static\image\lablador.jpeg" />
+    <Content Include="static\image\pekeness.jpg" />
     <Content Include="static\image\pic2.jpg">
       <Publish>True</Publish>
     </Content>
+    <Content Include="static\image\pomerian.jpg" />
+    <Content Include="static\image\poodel.jpg" />
+    <Content Include="static\image\pug.jpeg" />
+    <Content Include="static\image\sibainu.jpg" />
+    <Content Include="static\image\taksa.jpg" />
+    <Content Include="static\image\vizla.jpg" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />
     <Content Include="static\scripts\jquery-1.10.2.intellisense.js" />
