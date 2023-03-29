@@ -38,7 +38,7 @@ On our website we will look at some dog breeds.</font>
 
 </div>
 
-<div class="row" style="background-color:#ffffff; border-color:DarkGray; color:black">
+<div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
     <div class="col-md-4">
         <h2>Jack Russell Terrier</h2>
         <p>
@@ -67,25 +67,88 @@ On our website we will look at some dog breeds.</font>
 
 </div>
 
-<div class="row" style="background-color:#ffffff; border-color:DarkGray; color:black">
+<div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
     <div class="col-md-4">
-        <h2>Getting started</h2>
+        <h2>Cavalier King Charles Spaniel</h2>
         <p>
-            Bottle gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+            The Cavalier King Charles spaniel is a small dog belonging to indoor decorative or companion dogs. 
+            They are friendly, sociable, get along well with other dogs and pets, but need communication and attention.
         </p>
-        <p><a class="btn btn-default" href="http://bottlepy.org/docs/dev/index.html">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href="https://lapkins.ru/dog/kavaler-king-charlz-spaniel/">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>The Python Package Index is a repository of software for the Python programming language.</p>
-        <p><a class="btn btn-default" href="https://pypi.python.org/pypi">Learn more &raquo;</a></p>
+        <h2>Labrador Retriever</h2>
+        <p>
+            The Labrador Retriever is a hunting friendly dog. It is one of the most popular breeds in the world, especially in the UK and USA. 
+            Today Labrador retrievers serve as guide dogs, therapeutic animals in hospitals, rescuers. In addition, they are valued as hunting dogs.
+        </p>
+        <p><a class="btn btn-default" href="https://lapkins.ru/dog/labrador-retriver/">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Microsoft Azure</h2>
-        <p>You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.</p>
-        <p><a class="btn btn-default" href="http://azure.microsoft.com">Learn more &raquo;</a></p>
+        <h2>Pug</h2>
+        <p>
+            Pug is a breed of decorative dogs, whose homeland is China, but they have gained popularity in the UK and the Netherlands. 
+            Despite the fact that pugs suffer from characteristic diseases (due to the special structure of the skull) and are quite expensive to maintain, 
+            they are one of the most popular breeds in the world.
+        </p>
+        <p><a class="btn btn-default" href="https://lapkins.ru/dog/mops/">Learn more &raquo;</a></p>
+    </div>
+
+</div>
+
+<div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
+    <div class="col-md-4">
+        <h2>German Shepherd</h2>
+        <p>
+            The German Shepherd is a breed of dog with a relatively short history, since it appeared in 1899. 
+            Originally intended for pastoral work, over time it became an official search, guard, security, protective and just a human companion. 
+            It is one of the most popular breeds in the world.
+        </p>
+        <p><a class="btn btn-default" href="https://lapkins.ru/dog/nemetskaya-ovcharka/">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Pekingese</h2>
+        <p>
+            The Pekingese is a small decorative dog originally from China. Jealously guarded by the nobility, it was not known outside of China until 1860.
+        </p>
+        <p><a class="btn btn-default" href="https://lapkins.ru/dog/pekines/">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Pomeranian</h2>
+        <p>
+            Pomeranian is a breed of dog named after the region of Pomerania, today divided between Poland and Germany. 
+            This breed is classified as decorative, but they originate from larger spitz, for example, from the German spitz.
+        </p>
+        <p><a class="btn btn-default" href="https://lapkins.ru/dog/pomeranskiy-shpits/">Learn more &raquo;</a></p>
+    </div>
+
+</div>
+
+<div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
+    <div class="col-md-4">
+        <h2>Poodle</h2>
+        <p>
+            The poodle is a breed of dogs previously used for hunting, and today mostly decorative. 
+            This is a very variable breed, there are four growth varieties, two types of wool and at least 6 colors.
+        </p>
+        <p><a class="btn btn-default" href="https://lapkins.ru/dog/pudel/">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Shiba Inu</h2>
+        <p>
+            The Shiba Inu is the smallest dog of all Japanese working breeds, outwardly resembling a fox. 
+            Despite being closely related to other Japanese dogs, the Shiba Inu is a unique hunting breed, not a miniature version of another breed. 
+            This is the most popular breed in Japan, which has managed to gain a good foothold in other countries.
+        </p>
+        <p><a class="btn btn-default" href="https://lapkins.ru/dog/siba-inu/">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Siberian Husky</h2>
+        <p>
+            Siberian Husky is a breed of medium-sized dogs, whose homeland is Siberia. The ancestors of the Husky served the northern tribes, 
+            whose way of life was nomadic and largely depended on the help of dogs. Today it is a popular companion dog, one of the most popular breeds in the world.
+        </p>
+        <p><a class="btn btn-default" href="https://lapkins.ru/dog/sibirskiy-khaski/">Learn more &raquo;</a></p>
     </div>
 
 </div>
