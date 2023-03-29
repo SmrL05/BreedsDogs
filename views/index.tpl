@@ -51,7 +51,7 @@ On our website we will look at some dog breeds.</font>
             thanks to which they got their name. Previously, they were used as carriage dogs, today it is a companion dog. 
             Although they have retained their vigor, from which their owners often suffer.
         </p>
-        <p><a class="shine-button" href="https://lapkins.ru/dog/dalmatinets/">Learn more &raquo;</a></p>
+        <p><a class="shine-button" href="https://lapkins.ru/dog/dalmatinets/"><img src="/static/image/paws.png" height=40></a></p>
         </div>
     </div>
     <div class="col-md-6">
@@ -183,7 +183,6 @@ On our website we will look at some dog breeds.</font>
         </div>
         <p>
             Pomeranian is a breed of dog named after the region of Pomerania, today divided between Poland and Germany. 
-            This breed is classified as decorative, but they originate from larger spitz, for example, from the German spitz.
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/pomeranskiy-shpits/"><img src="/static/image/paws.png" height=40></a></p>
         
