@@ -39,64 +39,104 @@ On our website we will look at some dog breeds.</font>
     </div>
 </div>
 
-<div class="col-md-4">
+<div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
+<div class="col-md-6">
         <h2>Dalmatian</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/akita.jpg" height = 170/>
+        </div>
+        <div class="col-md-6">
         <p>
             Dalmatian is a breed of dog, noticeable due to the spotted coat color. Its roots come from the region of Dalmatia, 
             thanks to which they got their name. Previously, they were used as carriage dogs, today it is a companion dog. 
             Although they have retained their vigor, from which their owners often suffer.
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/dalmatinets/">Learn more &raquo;</a></p>
+        </div>
     </div>
-
-<div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
-    <div class="col-md-4">
+    <div class="col-md-6">
         <h2>Jack Russell Terrier</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/akita.jpg" height = 170/>
+        </div>
+        <div class="col-md-6">
         <p>
             The Jack Russell Terrier is a breed of small dogs created for hunting foxes and other burrowing animals. 
             Despite the fact that in recent years they are increasingly kept as companion dogs, they remain a full-fledged hunting dog. 
             Misunderstanding this can lead to the fact that the owner will be disappointed and discouraged by the behavior of his pet.
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/dzhek-rassel-terer/">Learn more &raquo;</a></p>
+        </div>
     </div>
-    <div class="col-md-4">
+    </div>
+
+<div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
+    
+    <div class="col-md-6">
         <h2>Doberman</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/akita.jpg" height = 170/>
+        </div>
+        <div class="col-md-6">
         <p>
             The Doberman is a medium-sized dog breed created by tax collector Carl Friedrich Louis Dobermann at the end of the XIX century. 
             Initially, this is an active breed that was created to protect and protect its owner and to this day it remains so.
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/doberman/">Learn more &raquo;</a></p>
     </div>
-    <div class="col-md-4">
+    </div>
+    <div class="col-md-6">
         <h2>Yorkshire Terrier</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/akita.jpg" height = 170/>
+        </div>
+        <div class="col-md-6">
         <p>
             The Yorkshire Terrier or York is a decorative breed of dog created in the XIX century in Yorkshire (England). 
             They are one of the most popular dog breeds in the world, but their content has its own characteristics.
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/yorkshirskiy-terer/">Learn more &raquo;</a></p>
     </div>
+    </div>
 
 </div>
 
 <div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
-    <div class="col-md-4">
+    <div class="col-md-6">
         <h2>Cavalier King Charles Spaniel</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/akita.jpg" height = 170/>
+        </div>
+        <div class="col-md-6">
         <p>
             The Cavalier King Charles spaniel is a small dog belonging to indoor decorative or companion dogs. 
             They are friendly, sociable, get along well with other dogs and pets, but need communication and attention.
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/kavaler-king-charlz-spaniel/">Learn more &raquo;</a></p>
     </div>
-    <div class="col-md-4">
+    </div>
+    <div class="col-md-6">
         <h2>Labrador Retriever</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/akita.jpg" height = 170/>
+        </div>
+        <div class="col-md-6">
         <p>
             The Labrador Retriever is a hunting friendly dog. It is one of the most popular breeds in the world, especially in the UK and USA. 
             Today Labrador retrievers serve as guide dogs, therapeutic animals in hospitals, rescuers. In addition, they are valued as hunting dogs.
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/labrador-retriver/">Learn more &raquo;</a></p>
     </div>
-    <div class="col-md-4">
+    </div>
+</div>
+
+<div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
+    <div class="col-md-6">
         <h2>Pug</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/akita.jpg" height = 170/>
+        </div>
+        <div class="col-md-6">
         <p>
             Pug is a breed of decorative dogs, whose homeland is China, but they have gained popularity in the UK and the Netherlands. 
             Despite the fact that pugs suffer from characteristic diseases (due to the special structure of the skull) and are quite expensive to maintain, 
@@ -104,17 +144,18 @@ On our website we will look at some dog breeds.</font>
         </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/mops/">Learn more &raquo;</a></p>
     </div>
-
-</div>
-
-<div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
-    <div class="col-md-4">
+    </div>
+    <div class="col-md-6">
         <h2>German Shepherd</h2>
+        <div class="col-md-6">
+        <img src = "/static/image/akita.jpg" height = 170/>
+        </div>
+        <div class="col-md-6">
         <p>
-            The German Shepherd is a breed of dog with a relatively short history, since it appeared in 1899. 
+           The German Shepherd is a breed of dog with a relatively short history, since it appeared in 1899. 
             Originally intended for pastoral work, over time it became an official search, guard, security, protective and just a human companion. 
             It is one of the most popular breeds in the world.
-        </p>
+            </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/nemetskaya-ovcharka/">Learn more &raquo;</a></p>
     </div>
 
