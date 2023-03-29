@@ -10,8 +10,6 @@
 </head>
 
 <body>
-        
-
     <div class="navbar navbar-inverse navbar-fixed-top" >
         <img src="/static/image/head.jpg" height =58 width=device/>
     </div>
@@ -23,7 +21,7 @@
         {{!base}}
         <hr />
         <footer>
-        <img scr = "/static/image/pic2.png"/>
+        <font color="white"/>
             <p>&copy; {{ year }} - Dogs Breeds</p>
         </footer>
     </div>
