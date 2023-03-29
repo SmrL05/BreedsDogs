@@ -158,7 +158,7 @@ On our website we will look at some dog breeds.</font>
             </p>
         <p><a class="shine-button" href="https://lapkins.ru/dog/nemetskaya-ovcharka/">Learn more &raquo;</a></p>
     </div>
-
+    </div>
 </div>
 
 <div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
