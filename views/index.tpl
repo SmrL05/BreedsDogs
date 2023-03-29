@@ -34,7 +34,7 @@ On our website we will look at some dog breeds.</font>
             The Beagle is a small, and the friendliest dog in the world, a great friend for both adults and children. 
             They are cheerful, active, but, like all hounds, they can be stubborn and their training requires patience and ingenuity.
         </p>
-        <p><a class="shine-button" href="https://lapkins.ru/dog/bigl/">Poke here</a></p>
+        <p><a class="shine-button" href="https://lapkins.ru/dog/bigl/"><img src="/static/image/paws.png" height=40></a></p>
         
     </div>
 </div>
