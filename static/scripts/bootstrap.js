@@ -159,6 +159,12 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
 
   $.fn.alert.Constructor = Alert
 
+    $(function () {
+        $('#browse_app').click(function () {
+            $.load('views/about.tpl');
+        });
+    });
+
 
   // ALERT NO CONFLICT
   // =================
