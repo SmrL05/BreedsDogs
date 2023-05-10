@@ -14,4 +14,20 @@ def home():
         year=datetime.now().year
     )
 
+@route('/feedback')
+@view('feedback')
+def feedback():
+    return dict(
+        title='Contact',
+        message='Your contact page.',
+        year=datetime.now().year
+    )
+@route('/article')
+@view('article')
+def feedback():
+    return dict(
+        title='Contact',
+        message='Your contact page.',
+        year=datetime.now().year
+    )
 

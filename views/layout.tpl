@@ -10,13 +10,31 @@
 </head>
 
 <body>
-
+     <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#000000;">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src = "/static/image/paws.png" height = 40 margin = 10/>
+            </div>
+            
+            <div class="navbar-collapse collapse">
+            
+                <ul class="nav navbar-nav">
+                    <li><a style="color: #ffa812" href="/home">Breeds Dogs</a></li>
+                    <li><a style="color: #ffa812" href="/article">More about dogs</a></li>
+                    <li><a style="color: #ffa812" href="/feedback">Your feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <div class="container body-content">
     <div class = "name">
-    
     </div>
         {{!base}}
-        
         <hr />
         <div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
         <footer>
