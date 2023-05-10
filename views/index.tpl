@@ -1,7 +1,7 @@
 % rebase('layout.tpl', title='Home Page', year=year)
 
 
-
+<img src="/static/image/pic2.jpg" height = 640 margin = 0px/>
 <div class="jumbotron" style="background-color:#000000; border-color:DarkGray; color:black">
     <font color="white" class="lead" > Dogs are a placental mammal of the carnivorous order of the Canid family.
     Dogs are known for their learning abilities, love of play, and social behavior. Special breeds of dogs have been bred, designed for various purposes: hunting, protection, traction and others, as well as decorative breeds.
