@@ -71,6 +71,8 @@
     <Content Include="static\image\pic2.jpg">
       <Publish>True</Publish>
     </Content>
+    <Content Include="static\image\picArticle.jpg" />
+    <Content Include="static\image\picFeedback.jpg" />
     <Content Include="static\image\pomerian.jpg" />
     <Content Include="static\image\poodel.jpg" />
     <Content Include="static\image\pug.jpeg" />
