@@ -26,7 +26,7 @@
                 <ul class="nav navbar-nav">
                     <li><a style="color: #ffa812" href="/home">Breeds Dogs</a></li>
                     <li><a style="color: #ffa812" href="/article">More about dogs</a></li>
-                    <li><a style="color: #ffa812" href="/feedback">Your feedback</a></li>
+                    <li><a style="color: #ffa812" href="/feedbackR">Your feedback</a></li>
                 </ul>
             </div>
         </div>

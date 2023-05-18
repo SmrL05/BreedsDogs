@@ -9,7 +9,6 @@
     <p><a href="https://en.wikipedia.org/wiki/Dog" class="shine-button" > Who are dogs?</a></p>
 </div>
 
-
 <div class="row" style="background-color:#000000; border-color:DarkGray; color:white">
     <div class="col-md-6">
         <h2>Akita Inu</h2>

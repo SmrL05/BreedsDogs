@@ -9,6 +9,7 @@ body {
 }
 
 .shine-button {
+    background-color: black;
     text-decoration: none;
     display: inline-block;
     padding: 10px 30px;
@@ -62,7 +63,15 @@ input,
 select,
 textarea {
     max-width: 280px;
+    border: 3px solid #ffa812;
+    background-color: rgba(0, 0, 0);
+    border-radius: 5px;
+    color: white;
 }
+.input:focus {
+    outline: 3px solid transparent;
+}
+
 h2 {
     color: #ffa812;
     font-family: cursive;
@@ -92,3 +101,9 @@ input[type="checkbox"].input-validation-error {
 .validation-summary-valid {
     display: none;
 }
+#block_background {
+    background-color: rgba(0, 0, 0, 0.9);
+    /*прозрачность*/
+    margin-bottom: 10px;
+}
+
