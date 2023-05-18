@@ -17,11 +17,12 @@
                <p><a class="shine-button">Send</a></p>
             </form>
         </div>
-        
  </div>
-
-%a = 5
-%while a>0:
+ %import json
+%dictionary = {}
+% with open('feedbacks.txt') as json_file:
+    %dictionary = json.load(json_file)
+%for i in dictionary:
     <div class="row">
         <div class="col-md-12 gap-3 border-10 margin-top-0" id="block_background" style="height: 300px">
            <hr />
@@ -29,10 +30,9 @@
                 <img src="/static/image/pug.jpeg" height=200/>
            </div>
            <div class="col-md-3 col-md-offset-0">
-                <h2 class="h">nickname</h2>
-                <p style="color: #ffffff;">text feedback</p>
-                <p class="lead" style="color: #4a4a4a; justify-content: right;">time</p>
+                <h2 class="h">{{dictionary[i]['nickname']}}</h2>
+                <p style="color: #ffffff;">{{dictionary[i]['feedbacktexts']}}</p>
+                <p class="lead" style="color: #4a4a4a; justify-content: right;">{{dictionary[i]['date']}} {{dictionary[i]['time']}}</p>
            </div>
         </div>
     </div>
-    %a-=1
