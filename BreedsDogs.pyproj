@@ -30,6 +30,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.py" />
+    <Compile Include="article.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="feedbackPY.py">
       <SubType>Code</SubType>
     </Compile>
@@ -103,8 +106,8 @@
   <ItemGroup>
     <Interpreter Include="env\">
       <Id>env</Id>
-      <Version>3.11</Version>
-      <Description>env (Python 3.11 (64-bit))</Description>
+      <Version>3.7</Version>
+      <Description>env (Python 3.7 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>

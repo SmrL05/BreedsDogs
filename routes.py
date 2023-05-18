@@ -19,8 +19,7 @@ def home():
 @route('/feedbackR')
 @route('/feedbackPY')
 @view('feedbackV')
-def home():
-    
+def feedback():
     return dict(
         title='Contact',
         message='Your contact page.',
@@ -30,7 +29,7 @@ def home():
 
 @route('/article')
 @view('article')
-def feedback():
+def article():
     return dict(
         title='Contact',
         message='Your contact page.',
