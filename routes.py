@@ -33,6 +33,7 @@ def article():
     return dict(
         title='Contact',
         message='Your contact page.',
-        year=datetime.now().year
+        year=datetime.now().year, 
+        error = ''
     )
 

@@ -103,7 +103,45 @@ input[type="checkbox"].input-validation-error {
 }
 #block_background {
     background-color: rgba(0, 0, 0, 0.9);
-    /*прозрачность*/
     margin-bottom: 10px;
 }
 
+.flex-center-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gap-3 {
+    gap: -3vh;
+}
+
+.border-10 {
+    border-radius: 10px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.margin-5 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+textarea::-webkit-scrollbar {
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #ffa812;
+    outline: 1px solid slategrey;
+}
+
+.erorrtext_ {
+    font-size: 20px;
+    width: 100%;
+    justify-content: center;
+    color: #ff9900;
+}

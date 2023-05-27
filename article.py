@@ -13,8 +13,9 @@ def isCorrectMail(email: str):
 
 @post('/article', method='post')
 def my_form():
-    # Получение введённых данных с формы главной страницы
+    # Р‘РµСЂРµРј РґР°РЅРЅС‹Рµ РёР· С„РѕСЂРјС‹
     article_ = request.forms.get('ARTICLE')
     name_ = request.forms.get('NAME_AUTHOR')
     email_ = request.forms.get('EMAIL_AUTHOR')
     phone_ = request.forms.get('PHONE_AUTHOR')
+
