@@ -47,6 +47,7 @@
     <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="articles.txt" />
     <Content Include="feedbacks.txt" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />

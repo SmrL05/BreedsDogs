@@ -18,7 +18,7 @@
         <form action="/article" method="post">
             <div class="row p-top-left-20">
                 <div class="col-md-3 col-md-offset-0 border-10" style="margin: 2px 45px 2px 230px;">
-                    <p><textarea style="resize: none;" class="input" rows="1" cols="80" name="TITLE_ARTICLE" placeholder="The title of your article">{{urlArticle}}</textarea></p>
+                    <p><textarea style="resize: none;" class="input" rows="1" cols="80" name="TITLE_ARTICLE" placeholder="The title of your article">{{titleArticle}}</textarea></p>
                     <p><textarea style="resize: none;" class="input" rows="8" cols="80" name="ARTICLE" placeholder="Abstract for your article">{{article}}</textarea></p> 
                 </div>   
                 <div class="col-md-3 col-md-offset-0 border-10" style="margin: 2px 180px 2px 45px;">

@@ -36,6 +36,8 @@ def my_form():
     phone_ = request.forms.get('PHONE_AUTHOR')
     if (checkInputFields() != ""):        
           return template("article.tpl", title=title, year=year, titleArticle = titleArticle_, article = article_, urlArticle = urlArticle_, name = name_, email = email_, phone = phone_, state = 1, error=checkInputFields())
+    if (writeToFile() != ""):        
+          return template("article.tpl", title=title, year=year, titleArticle = titleArticle_, article = article_, urlArticle = urlArticle_, name = name_, email = email_, phone = phone_, state = 1, error=writeToFile())
 
 
 
@@ -57,4 +59,23 @@ def checkInputFields():
         error = "Enter the correct author number!"
     else:
         error = ""
+    return error
+
+def writeToFile():
+    error = ""
+    date_object = datetime.today().strftime('%Y-%m-%d')
+    articles_ = {}
+    with open('articles.txt') as json_file:
+        # Считывание данных из файла
+        articles_ = json.load(json_file)
+    # Проверка "есть ли на сайте статья с таким названием"
+    if titleArticle_ in articles_.keys():
+        # Если статья есть, выводим сообщение пользователю
+        error = "Статья с таким названием уже есть на сайте!"
+    else:
+        # Если статьи нет, заносим данные в словарь, а затем в файл
+        articles_[titleArticle_] = {'article' : article_, 'urlArticle' : urlArticle_, 'name' : name_, 'email' : email_, 'phone' : phone_, 'date' : date_object}
+    # Запись в файл
+    with open('articles.txt', 'w') as outfile:
+        json.dump(articles_, outfile)
     return error
