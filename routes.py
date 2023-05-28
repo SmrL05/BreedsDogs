@@ -34,6 +34,12 @@ def article():
         title='Contact',
         message='Your contact page.',
         year=datetime.now().year, 
+        titleArticle = '',
+        article = '',
+        urlArticle = '',
+        name = '',
+        email = '',
+        phone = '',
+        state = 0, 
         error = ''
     )
-

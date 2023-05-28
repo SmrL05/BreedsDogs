@@ -1,27 +1,37 @@
-% rebase('layout.tpl', title=title, year=year, error=error)
+% rebase('layout.tpl', title=title, year=year, titleArticle = titleArticle, article = article, urlArticle = urlArticle, name = name, email = email, phone = phone, state = state, error=error)
 <img src="/static/image/picArticle.jpg" height = 640 margin = 0px/>
 
+%if (state == 1):
+    <script>
+        function scrollToBottom() {
+            window.scrollTo(0, 640);
+        }
+        window.onload = scrollToBottom;
+    </script>
+%end
+
 <div class="row">
-    <div class="col-md-12 gap-3 border-10 margin-top-0" id="block_background" style="height: 400px">
+    <div class="col-md-12 gap-3 border-10 margin-top-0" id="block_background" style="height: 430px">
         <div class="jumbotron  text-center margin-5" id="block_background" style="height: 40px" >
             <h2 class="h p-20">Add your article</h2>
         </div> 
         <form action="/article" method="post">
-            <div class="row p-20">
+            <div class="row p-top-left-20">
                 <div class="col-md-3 col-md-offset-0 border-10" style="margin: 2px 45px 2px 230px;">
-                    <p><input required type="text" class="input" size="50" name="URL_ARTICLE" placeholder="Link to your article"></p>
-                    <p><textarea required style="resize: none;" class="input" rows="7" cols="80" name="ARTICLE" placeholder="Abstract for your article"></textarea></p> 
+                    <p><textarea style="resize: none;" class="input" rows="1" cols="80" name="TITLE_ARTICLE" placeholder="The title of your article">{{urlArticle}}</textarea></p>
+                    <p><textarea style="resize: none;" class="input" rows="8" cols="80" name="ARTICLE" placeholder="Abstract for your article">{{article}}</textarea></p> 
                 </div>   
                 <div class="col-md-3 col-md-offset-0 border-10" style="margin: 2px 180px 2px 45px;">
-                    <p><input required type="text" class="input" size="50" name="NAME_AUTHOR" placeholder="Name of author"></p>
-                    <p><input required type="text" pattern="([A-Za-z0-9]+[.-_])*[A-Za-z0-9]+@[A-Za-z0-9-]+(\.[A-Z|a-z]{2,})+$" class="input" size="50" name="EMAIL_AUTHOR" placeholder="Email of author"></p>
-                    <p><input required type="text" class="input" size="50" name="PHONE_AUTHOR" placeholder="Phone of author"></p>
-                    <p><input required type="submit" class="shine-button" value="Send"></p>
-                </div>   
-                <div class="col-md-12 col-md-offset-0">
-                    <h3 class = "erorrtext_ flex-center-col"><b>{{error</b></h3>
-                </div>
+                    <p><textarea style="resize: none;" class="input" rows="1" cols="80" name="URL_ARTICLE" placeholder="Link to your article">{{urlArticle}}</textarea></p>
+                    <p><textarea style="resize: none;" class="input" rows="1" cols="80" name="NAME_AUTHOR" placeholder="Name of author">{{name}}</textarea></p>
+                    <p><textarea style="resize: none;" class="input" rows="1" cols="80" name="EMAIL_AUTHOR" placeholder="Email of author">{{email}}</textarea></p>
+                    <p><textarea style="resize: none;" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" class="input" rows="1" cols="80" name="PHONE_AUTHOR" placeholder="Phone of author">{{phone}}</textarea></p>
+                    <p><input type="submit" class="shine-button" value="Send"></p>
+                </div>                   
             </div>   
+            <div class="col-md-12 col-md-offset-0" style="text-align: center;">
+                <h3 class = "erorrtext_ flex-center-col"><b>{{error}}</b></h3>
+            </div>
         </form>
     </div>   
  </div>
