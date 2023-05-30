@@ -43,6 +43,4 @@ def article():
         phone = '',
         state = 0, 
         error = ''
-        year=datetime.now().year, 
-        error=""
     )
