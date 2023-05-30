@@ -24,7 +24,8 @@ def feedback():
         title='Contact',
         message='Your contact page.',
         year=datetime.now().year,
-        feedbackD = {}
+        error = "", 
+        errorCheck ={"", ""}
         )
 
 @route('/article')
@@ -42,4 +43,6 @@ def article():
         phone = '',
         state = 0, 
         error = ''
+        year=datetime.now().year, 
+        error=""
     )

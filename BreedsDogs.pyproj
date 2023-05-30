@@ -68,6 +68,7 @@
     <Content Include="static\image\head2.jpg">
       <Publish>True</Publish>
     </Content>
+    <Content Include="static\image\icon_user.png" />
     <Content Include="static\image\iorik.jpg" />
     <Content Include="static\image\jackRassel.jpg" />
     <Content Include="static\image\lablador.jpeg" />
