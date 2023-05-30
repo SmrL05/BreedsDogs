@@ -38,6 +38,8 @@ def my_form():
           return template("article.tpl", title=title, year=year, titleArticle = titleArticle_, article = article_, urlArticle = urlArticle_, name = name_, email = email_, phone = phone_, state = 1, error=checkInputFields())
     if (writeToFile() != ""):        
           return template("article.tpl", title=title, year=year, titleArticle = titleArticle_, article = article_, urlArticle = urlArticle_, name = name_, email = email_, phone = phone_, state = 1, error=writeToFile())
+    return template("article.tpl", title=title, year=year, titleArticle = '', article = '', urlArticle = '', name = '', email = '', phone = '', state = 0, error='')
+
 
 
 
@@ -68,13 +70,16 @@ def writeToFile():
     with open('articles.txt') as json_file:
         # Считывание данных из файла
         articles_ = json.load(json_file)
-    # Проверка "есть ли на сайте статья с таким названием"
-    if titleArticle_ in articles_.keys():
-        # Если статья есть, выводим сообщение пользователю
-        error = "Статья с таким названием уже есть на сайте!"
-    else:
-        # Если статьи нет, заносим данные в словарь, а затем в файл
-        articles_[titleArticle_] = {'article' : article_, 'urlArticle' : urlArticle_, 'name' : name_, 'email' : email_, 'phone' : phone_, 'date' : date_object}
+    for i in articles_:
+        # Проверка "есть ли на сайте статья с таким названием"
+        if titleArticle_ in articles_[i]['titleArticle']:
+            # Если статья есть, выводим сообщение пользователю
+            error = "Статья с таким названием уже есть на сайте!"
+            return error
+        else:
+            # Если статьи нет, заносим данные в словарь, а затем в файл
+            articles_[len(articles_)] = {'titleArticle' : titleArticle_, 'article' : article_, 'urlArticle' : urlArticle_, 'name' : name_, 'email' : email_, 'phone' : phone_, 'date' : date_object}
+            break
     # Запись в файл
     with open('articles.txt', 'w') as outfile:
         json.dump(articles_, outfile)

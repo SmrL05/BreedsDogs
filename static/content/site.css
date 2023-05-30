@@ -77,6 +77,13 @@ h2 {
     font-family: cursive;
 }
 
+h3 {
+    color: #4a4a4a;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 /* styles for validation helpers */
 .field-validation-error {
     color: #b94a48;

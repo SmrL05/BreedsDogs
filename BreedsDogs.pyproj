@@ -68,6 +68,7 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="static\image\akita.jpg" />
+    <Content Include="static\image\avatar.jpg" />
     <Content Include="static\image\background.jpg" />
     <Content Include="static\image\beagle.jpg" />
     <Content Include="static\image\CKCspaniel.jpg" />
