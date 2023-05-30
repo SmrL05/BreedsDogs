@@ -1,4 +1,4 @@
-#!E:\_3 курс\МДК 02.02\практическая\проект_\env\Scripts\python.exe
+#!D:\Program\VSProject\BreedsDogs\env\Scripts\python.exe
 # -*- coding: utf-8 -*-
 """
 Bottle is a fast and simple micro-framework for small web applications. It

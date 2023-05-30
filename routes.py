@@ -25,15 +25,14 @@ def feedback():
         message='Your contact page.',
         year=datetime.now().year,
         error = "", 
-        errorCheck ={"", ""}
+        errorCheck=["", "","",  ""]
         )
 
 @route('/article')
 @view('article')
 def article():
     return dict(
-        title='Contact',
-        message='Your contact page.',
+        title='Contact', message='Your contact page.',
         year=datetime.now().year, 
         titleArticle = '',
         article = '',
