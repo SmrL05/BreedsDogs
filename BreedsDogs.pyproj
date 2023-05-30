@@ -40,6 +40,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="routes.py" />
+    <Compile Include="unit_test\articlesTest\test1.py" />
+    <Compile Include="unit_test\articlesTest\__init__.py" />
     <Compile Include="unit_test\test1.py">
       <SubType>Code</SubType>
     </Compile>
@@ -54,6 +56,7 @@
     <Folder Include="static\image\" />
     <Folder Include="static\fonts\" />
     <Folder Include="static\scripts\" />
+    <Folder Include="unit_test\articlesTest\" />
     <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
@@ -119,8 +122,8 @@
   <ItemGroup>
     <Interpreter Include="env\">
       <Id>env</Id>
-      <Version>3.11</Version>
-      <Description>env (Python 3.11 (64-bit))</Description>
+      <Version>3.9</Version>
+      <Description>env (Python 3.9 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
