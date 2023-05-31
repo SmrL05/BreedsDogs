@@ -7,6 +7,7 @@ global title, year
 title=''
 year = datetime.now().year
 
+# Функция для проверкии соответствия почты или номера телефона соответствующему паттерну
 def isCorrectData(data, type_):
     patternEmail = regex_compile("([A-Za-z0-9]+[.-_])*[A-Za-z0-9]+@[A-Za-z0-9-]+(\.[A-Z|a-z]{2,})+$")
     patternPhone = regex_compile("^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$")
@@ -40,9 +41,7 @@ def my_form():
           return template("article.tpl", title=title, year=year, titleArticle = titleArticle_, article = article_, urlArticle = urlArticle_, name = name_, email = email_, phone = phone_, state = 1, error=writeToFile())
     return template("article.tpl", title=title, year=year, titleArticle = '', article = '', urlArticle = '', name = '', email = '', phone = '', state = 0, error='')
 
-
-
-
+# Функция для проверки введенных значений на сайте
 def checkInputFields():
     error = ""
     if (titleArticle_ == "" or article_ == "" or urlArticle_ == "" or name_ == "" or email_ == "" or phone_ == ""):
@@ -58,11 +57,12 @@ def checkInputFields():
     elif (isCorrectData(email_, "email") == False):
         error = "Enter the correct email!"
     elif (isCorrectData(phone_, "phone") == False):
-        error = "Enter the correct author number!"
+        error = "Enter the correct author number! Pattern +7(***)***-**-**"
     else:
         error = ""
     return error
 
+# Функция для записи данных в файл json
 def writeToFile():
     error = ""
     date_object = datetime.today().strftime('%Y-%m-%d')

@@ -26,7 +26,7 @@
                     <p><textarea style="resize: none;" class="input" rows="1" cols="80" name="NAME_AUTHOR" placeholder="Name of author">{{name}}</textarea></p>
                     <p><textarea style="resize: none;" class="input" rows="1" cols="80" name="EMAIL_AUTHOR" placeholder="Email of author">{{email}}</textarea></p>
                     <p><textarea style="resize: none;" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" class="input" rows="1" cols="80" name="PHONE_AUTHOR" placeholder="Phone of author">{{phone}}</textarea></p>
-                    <p><input type="submit" class="shine-button" value="Send"></p>
+                    <p><input type="submit" class="shine-button" value="Add"></p>
                 </div>                   
             </div>   
             <div class="col-md-12 col-md-offset-0" style="text-align: center;">
@@ -40,7 +40,7 @@
 %dictionary = {}
 % with open('articles.txt') as json_file:
     %dictionary = json.load(json_file)
-%for i in dictionary:
+%for i in reversed(dictionary):
     <div class="row">
         <div class="col-md-12 gap-3 col-md-offset-0 border-10 margin-top-0" id="block_background" style="height: 300px">
            <hr />
