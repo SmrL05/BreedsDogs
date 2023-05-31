@@ -1,9 +1,12 @@
 % rebase('layout.tpl', title=title, year=year, error = error, errorCheck=errorCheck)
 <img src="/static/image/picFeedback.jpg" height = 640 margin = 0px/>
- <div class="row">
-        <div class="col-md-12 gap-3 border-10 margin-top-5" id="block_background" style="height: 300px">
-           <div class="jumbotron  text-center margin-5" id="block_background" style="height: 40px" >
+<div class="row">
+    <div class="col-md-12 gap-3 border-10 margin-top-5" id="block_background" style="height: 400px">
+        
+           <div class="jumbotron  text-center" id="block_background" style="height: 240px" >
                 <h2  class="h">Add your feedback</h2>
+                 <font color="white" class="lead">You can leave your email and phone number to receive notifications about new site updates, as well as receive additional points from our partners for your feedback.</font>
+                  <p class="erorrtext_" style="color: #b94a48;">{{error}}</p>
             </div>
            <form action="/feedback" method="post">
                <div class="col-md-3 col-md-offset-2">
@@ -13,21 +16,19 @@
                </div>
                <div class="col-md-3 col-md-offset-0">
                     <textarea  style="resize : none;" class="input" rows="5" cols="80" name="FEEDBACKTEXT" placeholder="Feedback text">{{errorCheck[3]}}</textarea>
-                     <p>{{error}}</p>
+                    
                </div>
-               
-               <from action="/feedback" method="post">
                     <button class="shine-button">Send</p></button>
-               </from>
             </form>
-        </div>
+    </div>
+</div>
 
- </div>
- %import json
+
+%import json
 %dictionary = {}
-% with open('feedbacks.txt') as json_file:
+%with open('feedbacks.txt') as json_file:
     %dictionary = json.load(json_file)
-%for i in dictionary:
+%for i in reversed(dictionary):
     <div class="row">
         <div class="col-md-12 gap-3 border-10 margin-top-0" id="block_background" style="height: 300px">
            <hr />
